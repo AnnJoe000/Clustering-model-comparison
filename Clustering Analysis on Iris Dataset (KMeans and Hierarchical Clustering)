@@ -1,0 +1,35 @@
+Clustering Analysis on Iris Dataset (KMeans and Hierarchical Clustering)
+
+
+Project Objective
+The objective of this project is to evaluate clustering techniques using the popular Iris dataset. The project focuses on applying KMeans and Hierarchical Clustering algorithms to uncover hidden patterns within the dataset and visualize the resulting clusters.
+
+Dataset
+The Iris dataset, available in the sklearn library, contains 150 samples of iris flowers, with the following features:
+
+Sepal Length (cm)
+Sepal Width (cm)
+Petal Length (cm)
+Petal Width (cm)
+This dataset also includes a target column representing three iris species: setosa, versicolor, and virginica. However, since clustering is an unsupervised learning task, the target column has been excluded from this analysis.
+
+Key Components
+1. Loading and Preprocessing
+  The Iris dataset was loaded using the sklearn.datasets module.
+  The species column was dropped, retaining only the feature columns for clustering.
+  Standardization was applied using StandardScaler to ensure features are scaled for better clustering performance.
+2. Clustering Algorithms
+A) KMeans Clustering
+  Description: KMeans clustering partitions the data into k clusters by minimizing the within-cluster variance. It iteratively assigns points to the nearest cluster center and updates cluster centroids.
+  Why Suitable: The Iris dataset has natural cluster separations, making it ideal for KMeans clustering.
+  Visualization: Clusters were visualized using scatter plots and seaborn.pairplot.
+B) Hierarchical Clustering
+  Description: Hierarchical clustering builds a tree of clusters using a bottom-up (agglomerative) approach by merging the closest data points.
+  Why Suitable: Hierarchical clustering helps visualize relationships between clusters and is particularly useful for structured data like Iris.
+  Visualization: Dendrograms and scatter plots were used to analyze clustering results.
+3. Evaluation Metrics
+  Silhouette Score: Evaluated the cluster quality for KMeans.
+  Dendrogram Analysis: Determined the optimal number of clusters for hierarchical clustering.
+4. Visualizations
+  Pair plots for KMeans and Hierarchical clustering.
+  Dendrogram for visual representation of hierarchical clustering.
