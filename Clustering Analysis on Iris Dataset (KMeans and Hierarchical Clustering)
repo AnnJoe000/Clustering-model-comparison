@@ -33,3 +33,11 @@ B) Hierarchical Clustering
 4. Visualizations
   Pair plots for KMeans and Hierarchical clustering.
   Dendrogram for visual representation of hierarchical clustering.
+
+
+Sample Visualizations
+  KMeans Clustering
+  Hierarchical Clustering Dendrogram
+
+Conclusion
+  This project successfully applies clustering techniques on the Iris dataset and demonstrates how unsupervised learning can reveal meaningful patterns in data.
