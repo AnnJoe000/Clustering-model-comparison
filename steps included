@@ -1,0 +1,21 @@
+1. Loading and Preprocessing
+  Briefly explain the Iris dataset (150 samples, 4 features, and 3 species).
+  Mention that the species column is dropped since clustering is unsupervised.
+
+2A. KMeans Clustering
+Algorithm Explanation:
+  Define KMeans clustering and its iterative steps (assigning points and updating centroids).
+  State that KMeans minimizes within-cluster variance.
+Why Suitable for Iris Dataset:
+  Explain that the Iris dataset has clear separable groups, making it a good candidate for KMeans.
+Result Observations:
+  Briefly interpret the clustering results by analyzing the plots (mention overlapping clusters if any).
+
+2B. Hierarchical Clustering
+Algorithm Explanation:
+  Explain the hierarchical process, including linkage methods (mention Ward’s method in your implementation).
+  Differentiate agglomerative and divisive clustering.
+Why Suitable for Iris Dataset:
+  Mention the structured nature of Iris data, where hierarchical clustering can help visualize relationships between clusters.
+Result Observations:  
+  Analyze dendrogram results (cut-off point explanation if shown in the dendrogram) and pair plot interpretations.
